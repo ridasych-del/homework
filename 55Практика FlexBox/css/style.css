@@ -1,0 +1,48 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.header-container {
+	border-bottom: solid 1px #000;
+}
+
+.header {
+	max-width: 1350px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 370px;
+}
+
+.list {
+	display: flex;
+	gap: 100px;
+}
+
+a {
+	color: #000;
+}
+
+#id {
+	text-decoration: none;
+}
+div {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
